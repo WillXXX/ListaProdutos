@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/valorProduto"
+        android:id="@+id/precoProduto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -47,10 +47,10 @@
         android:id="@+id/descricaoProduto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140sp"
+        android:layout_marginStart="140dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:maxLines="2"
+        android:maxLines="4"
         android:text="Descriçãoaaaoooooooooooooooo0000000000000000000000000000000000000000000000000000ooooooooo"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
