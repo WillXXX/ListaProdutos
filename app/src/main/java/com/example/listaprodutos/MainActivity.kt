@@ -25,9 +25,10 @@ class MainActivity : AppCompatActivity() {
 
         val produto1 = Produto(
             R.drawable.ssd,
-            nome :"SSD SanDisk Plus 480GB",
-        descricao"Confiável, rápido e muita capacidade. A SanDisk, pioneira em tecnologias de armazenamento de estado sólido é a marca de confiança dos profissionais da área, oferece maior velocidade e desempenho com o SanDisk SSD Plus.",
-
+            "SSD SanDisk Plus 480GB",
+            "Confiável, rápido e muita capacidade. A SanDisk, pioneira em tecnologias de armazenamento de estado sólido é a marca de confiança dos profissionais da área, oferece maior velocidade e desempenho com o SanDisk SSD Plus.",
+            "R$=450,00"
         )
+        listaProdutos.add(produto1)
     }
 }
